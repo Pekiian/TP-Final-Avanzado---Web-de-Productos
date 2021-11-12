@@ -1,0 +1,80 @@
+/** Variables **/
+:root{
+    --main-color: #333;
+    --rgb-main: rgb(24, 24, 24);
+}
+
+/** Globales **/
+html {
+  box-sizing: border-box;
+  height: 100vh;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.contenedor{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+/** Utilidades **/
+.t-center{
+    text-align: center;
+}
+
+.c-black{
+    color: #000;
+}
+
+.descripcion{
+    color: #000;
+    line-height: 1.5;
+}
+
+/** Producto **/
+.product-page{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+    color: #000;
+}
+
+.texto p{
+    line-height: 1.5;
+}
+
+.texto * {
+    margin-bottom: 25px;
+}
+
+.product-page img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-comprar{
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-align: center;
+    
+    background-color: var(--main-color);
+    color: #fff;
+
+    transition: background-color .1s ease-in;
+}
+
+.btn-comprar:hover{
+    background-color: var(--rgb-main);
+}
+
+/** Footer **/
+.site-footer{
+    text-align: center;
+    padding: 10px 20px;
+    color: #000;
+}
