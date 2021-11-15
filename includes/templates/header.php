@@ -15,6 +15,6 @@
 </head>
 <body>
 <nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper indigo darken-3">
       <a href="index.php" class="brand-logo center">Título</a>
     </div>

@@ -22,7 +22,7 @@
                     <p class="descripcion"><?php echo $producto['descripcion_corta'] ?></p>
                     </div>
                     <div class="card-action">
-                    <a href="producto.php?id=<?php echo $producto['id'] ?>">This is a link</a>
+                    <a href="producto.php?id=<?php echo $producto['id'] ?>">Ver Producto</a>
                     </div>
                 </div>
                 </div>
